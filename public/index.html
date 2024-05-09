@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <!-- Primary Meta Tags -->
+  <title>Genera códigos QR para TeamTechCL - Productos y servicios tecnológicos</title>
+  <meta name="title" content="Genera códigos QR para TeamTechCL">
+  <meta name="description"
+    content="Aplicación para generar códigos QR personalizados en base a cualquier texto alfanumérico con integración de parámetros para uso de TeamTechCL">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://qr.rpnet.cl/">
+  <meta property="og:title" content="Genera códigos QR para TeamTechCL">
+  <meta property="og:description"
+    content="Aplicación para generar códigos QR personalizados en base a cualquier texto alfanumérico con integración de parámetros">
+  <meta property="og:image" content="<%= BASE_URL %>Codigo_QR.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://qr.rpnet.cl">
+  <meta property="twitter:title"
+    content="Genera códigos QR para TeamTechCL">
+  <meta property="twitter:description"
+    content="Aplicación para generar códigos QR personalizados en base a cualquier texto alfanumérico con integración de parámetros">
+  <meta property="twitter:image" content="<%= BASE_URL %>Codigo_QR.png">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+
+  <% if (process.env.NODE_ENV==="production" ){ %>
+    <script data-ad-client="ca-pub-4859317680104877" async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <% } %>
+      <title>
+        TeamTechCL - Generador códigos QR
+      </title>
+</head>
+
+<body>
+  <noscript>
+    <strong>Lo sentimos pero <%= htmlWebpackPlugin.options.title %> no está habilitado para trabajar correctamente con JavaScript.
+        Por favor habilítelo para continuar.</strong>
+  </noscript>
+  <div id="app" class="section"></div>
+
+  
+  <!-- Archivos serán insertados automáticamente -->
+<!-- <script>
+  function agregaTexto(){
+    console.log("mensaje 1");
+    var texto1 = document.getElementById("texto1").value;
+    var texto2 = document.getElementById("texto2").value;
+    var texto3 = document.getElementById("texto3").value;
+    
+    var texto = texto1 + "\t\t" + texto2 + "\t\t" + texto3;
+    console.log(texto1)
+    document.getElementById("textoFinal").innerHTML = "prueba";
+    
+    }
+  </script> -->
+</body>
+
+</html>
